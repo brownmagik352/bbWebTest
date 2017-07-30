@@ -35,7 +35,7 @@
         <div class='container'>
             
             <div class="row actions">
-                <div class="col-md-5 col-md-offset-1">
+                <div class="search-action col-md-5 col-md-offset-1">
                     <form>
                         <div class="input-group input-group-lg">
                         <input type="text" class="form-control" placeholder="Search by class, title, author, or ISBN">
@@ -47,7 +47,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-5">
+                <div class="sell-action col-md-5">
                     <form>
                         <div class="input-group input-group-lg">
                             <input type="text" class="form-control" placeholder="Enter an ISBN to upload">
@@ -61,8 +61,8 @@
                 </div>
             </div>
 
-            <div class='row feed'>
-                <div class='col-md-10 col-md-offset-1'>
+            <div class='row feed-and-user-rankings'>
+                <div class='feed col-md-9 col-xs-12'>
                     <ul class='list-unstyled'>
                         <li>
                             <div class="media well">
@@ -84,6 +84,45 @@
                                 </div>
                             </div>
                     </ul>
+                </div>
+
+                <div class='col-md-3 hidden-sm hidden-xs'>                    
+                    <div class='user-rankings panel panel-default'>
+                        <div class='panel-heading'>
+                            <h4 class='panel-title'>Your Rankings</h4>
+                        </div>
+                        <div class='panel-body'>
+                            <h5>#25 Seller</h5>
+                            <p>5 books uploaded</p>
+                            <p>3 books sold</p>
+                            <h5>#15 Savings</h5>
+                            <p>$65</p>                            
+                        </div>
+                    </div>
+                    
+                    <div class='chats panel panel-default'>
+                        <div class='panel-heading'>
+                            <h4 class='panel-title'>Chats</h4>
+                        </div>
+                        <div class='panel-body'>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span class="badge">3</span>
+                                    Selling: ECON110
+                                </li>
+                                <li class="list-group-item">Buying: PSYC110</li>
+                                <li class="list-group-item">
+                                    <span class="badge">5</span>
+                                    Buying: CGSC110
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="badge">1</span>
+                                    Selling: MATH120
+                                </li>
+                                <li class="list-group-item">Buying: SPAN150</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             

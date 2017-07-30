@@ -25,3 +25,8 @@ img.media-object {
 input[id=isbn-upload], input[id=search] {
     width: 200px;
 }
+
+/* user-rankings customization */
+.user-rankings.panel p {
+    text-indent: 25px;
+}
