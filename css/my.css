@@ -10,7 +10,7 @@ img.media-object {
 }
 
 /* search & upload customization */
-.actions {
+.actions .search-action, .actions .sell-action {
     margin-bottom: 25px; 
 }
 
