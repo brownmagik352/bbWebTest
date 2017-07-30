@@ -1,27 +1,14 @@
-/* BB customizations */
-.btn-primary{
-    background: #4b008a;
-}
-
-
 /* feed-item customization */
-.media-body {
-    position: relative;
-}
-
 img.media-object {
     height: 170px;
-    width: 130bookpx;
-}
-
-.media-body .publication-info, .media-body .listing-info {
-    display: inline-block;
+    width: 130px;
 }
 
 /* search & upload customization */
 .actions {
     margin-bottom: 25px; 
 }
+
 input[id=isbn-upload], input[id=search] {
     width: 200px;
 }
