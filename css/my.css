@@ -4,6 +4,11 @@ img.media-object {
     width: 65px;
 }
 
+.search-icon {
+    font-size: 32px;
+    margin-right: 32px;
+}
+
 /* search & upload customization */
 .actions {
     margin-bottom: 25px; 
