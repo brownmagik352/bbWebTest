@@ -1,0 +1,49 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/* Navbar styling */
+.navbar {
+    list-style-type: none;
+    background-color: #4b008a;
+}
+
+.navbar li, .navbar h1 {
+    display: inline;
+    color: white;
+    font-weight: bold;
+    padding: 0 5px 0 5px;
+}
+
+/* center-column styling */
+.center-column {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* form styling */
+.action-fields form {
+    display: inline;
+    margin: 0 auto;
+}
+
+.action-fields input[type=text] {
+    width: 200px;
+}
+
+/* feed styling */
+.feed ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.feed ul li {
+    border: 50px single black;
+    list-style-position: inside;
+}

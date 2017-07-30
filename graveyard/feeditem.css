@@ -1,0 +1,30 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+.feed-item {  
+    border: 5px solid black;
+    height: 100px;  
+}
+
+.feed-item img {
+    width: 100px;
+    height:  100px;
+}
+
+.feed-item div {
+    display: inline-block; 
+    border: 5px solid black;
+    height: 100px;
+}
+
+.feed-item .publication-info {
+    margin-left: 10px;
+}
+.feed-item .listing-info {
+    float: right;
+}
