@@ -35,15 +35,6 @@
     font-size: 26px;
 }
 
-/* search & upload customization */
-.actions .search-action, .actions .sell-action {
-    margin-bottom: 25px; 
-}
-
-input[id=isbn-upload], input[id=search] {
-    width: 200px;
-}
-
 /* user-rankings customization */
 .user-rankings.panel p {
     text-indent: 25px;
