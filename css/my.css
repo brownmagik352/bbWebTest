@@ -1,12 +1,18 @@
 /* feed-item customization */
-img.media-object {
+.feed img.media-object {
     height: 85px;
     width: 65px;
 }
 
-.search-icon {
+.feed .search-icon {
     font-size: 32px;
     margin-right: 32px;
+}
+
+/* booklist customization */
+.bookList img.media-object {
+    height: 68px;
+    width: 52px;
 }
 
 /* search & upload customization */
