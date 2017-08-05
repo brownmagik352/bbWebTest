@@ -1,26 +1,26 @@
-/* feed-item customization */
-.feed img.media-object { 
+/* activity tab customization */
+.activity img.media-object { 
     height: 85px; /* eying the size */
     width: 65px;
 }
 
-.feed .search-icon {
+.activity .search-icon {
     font-size: 32px; /* half the image size */
     margin-right: 16px; /* 32px / 2 */
     margin-left: 16px; /* 32px / 2 */
 }
 
-.feed .nav-tabs {
+.activity .nav-tabs {
     margin-bottom: 25px;
 }
 
-/* booklist customization */
+/* booklist tab customization */
 .bookList img.media-object {
     height: 68px; /* 20% smaller than an activity image */
     width: 52px;
 }
 
-/* searchList customization */
+/* searchList tab customization */
 .searchList .search-icon {
     font-size: 26px; /* half the image size */
     margin-right: 13px; /* 32px / 2 */
