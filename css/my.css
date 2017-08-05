@@ -16,8 +16,23 @@
 
 /* booklist customization */
 .bookList img.media-object {
-    height: 68px;
+    height: 68px; /* 20% smaller than an activity image */
     width: 52px;
+}
+
+/* searchList customization */
+.searchList .search-icon {
+    font-size: 26px; /* half the image size */
+    margin-right: 13px; /* 32px / 2 */
+    margin-left: 13px; /* 32px / 2 */
+}
+
+.searchList .nav-tabs {
+    margin-bottom: 25px;
+}
+
+.searchList p {
+    font-size: 26px;
 }
 
 /* search & upload customization */
