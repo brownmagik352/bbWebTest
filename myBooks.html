@@ -9,59 +9,66 @@
 
     <body>
         
-        <div class="navbar navbar-default navbar-static-top">
-             <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BoolaBooks</a>
+            </div>
 
-                <div class="navbar-header">
-                    <a href="#" class="navbar-brand">BoolaBooks</a>
-
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="col-sm-3 col-md-3">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Course or Book Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-
-                <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-                    <li><a href="#">My Searches</a></li>
-                    <li><a href="#">My Books</a></li>
-                    <li><a href="#">My Chats</a></li>
-                    <li><a href="#">My Account</a></li>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="#">ECON110</a></li>
+                        <li><a href="#">ECON210</a></li>
+                        <li><a href="#">ECON310</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">MATH120</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">SPAN150</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sell <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <form>
+                                <div>
+                                    <label for="isbn">ISBN</label>
+                                    <input type="number" class="form-control" placeholder="978XXXXXXXXXX" id="isbn"><br /> 
+                                    <label for="price">Price</label>
+                                    <input type="decimal" class="form-control" placeholder="XX.XX" id="price"><br /> 
+                                    <label for="course">Course #</label>
+                                    <input type="text" class="form-control" placeholder="ABCD123" id="course"><br /> 
+                                    <div class="submit-button">
+                                        <button class="btn btn-primary" type="submit">Upload</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </ul>
+                    </li>
                 </ul>
-             </div>
-        </div>
+            </div><!-- /.navbar-collapse -->
+        </nav>
 
         <div class="container">
-            
-            <div class="row actions">
-                <div class="sell-action col-md-5  col-md-offset-1">
-                    <form>
-                        <div class="input-group input-group-lg">
-                            <input type="text" class="form-control" placeholder="Enter an ISBN to upload and sell your book">
-                            <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button">
-                                    <i class="glyphicon glyphicon-book"></i>
-                                </button>
-                            </span>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="search-action col-md-5">
-                    <form>
-                        <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" placeholder="Search by class, title, author, or ISBN">
-                        <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">
-                                <i class="glyphicon glyphicon-search"></i>
-                            </button>
-                        </span>
-                        </div>
-                    </form>
-                </div>
-                
-            </div>
 
             <div class="row bookList-and-user-rankings">
                 <div class="bookList col-md-9 col-xs-12">
