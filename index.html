@@ -9,7 +9,7 @@
 
     <body>
         
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -26,7 +26,7 @@
                 <div class="col-sm-3 col-md-3">
                     <form class="navbar-form" role="search">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Course or Book Search">
+                            <input type="search" class="form-control" placeholder="Course or Book Search">
                             <div class="input-group-btn">
                                 <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                             </div>
@@ -252,7 +252,7 @@
                         <div class="panel-heading">
                             <h4 class="panel-title">Chats</h4>
                         </div>
-                        <div class="panel-body">
+                        <div class="panel-body fixed-panel">
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <span class="badge">3</span>
@@ -276,10 +276,35 @@
         </div>
 
         <div class="active-chat">
-            <span class="dropup">
-                <span class="caret"></span>
-            </span>
+            <i class="glyphicon glyphicon-chevron-up"></i>
             Active Chat (Selling ECON110)
+        </div>
+
+        <div class="chat-window col-md-3 col-xs-3">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Active Chat (Selling ECON110)</h3>
+            </div>
+            <div class="panel-body fixed-panel">
+                <p>Message1</p>
+                <p>Message2</p>
+                <p>Message3</p>
+                <p>Message4</p>
+                <p>Message5</p>
+                <p>Message6</p>
+                <p>Message7</p>
+                <p>Message8</p>
+                <p>Message9</p>
+                <form action="#" id="sendChatMessage">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Send Message">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="Send"><i class="glyphicon glyphicon-send"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
         </div>
             
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
