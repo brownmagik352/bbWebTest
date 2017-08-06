@@ -1,3 +1,8 @@
+/* navbar customization */
+.dropdown-menu .submit-button {
+    text-align: center;
+}
+
 /* activity tab customization */
 .activity img.media-object { 
     height: 85px; /* eying the size */
