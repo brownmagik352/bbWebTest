@@ -18,20 +18,21 @@
             </div>
 
             <div class="row actions">
-                <div class="search-action col-md-6 col-md-offset-1 col-xs-10 col-xs-offset-1">
-                    <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" placeholder="Search by class, title, author, or ISBN">
+                <div class="search-action col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="input-group input-group-lg pull-right">
+                        <input type="text" class="form-control" placeholder="Search by course#, title, author, or ISBN">
                         <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">
+                            <button class="btn btn-default" type="button">
                                 <i class='glyphicon glyphicon-search'></i>
                             </button>
                         </span>
                     </div>
                 </div>
 
-                <div class="courses-action col-md-2 col-xs-5 col-xs-offset-1">
+                <div class="secondary-action col-md-4 col-sm-12 col-xs-12 text-center">
+                    
                     <div class="dropdown">
-                        <button class="btn btn-lg btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Courses
                             <span class="caret"></span>
                         </button>
@@ -43,20 +44,26 @@
                             <li><a href="#">MATH120</a></li>
                         </ul>
                     </div>
-                </div>
 
-                <div class="sell-action col-md-2 col-xs-5">
                     <div class="dropdown">
-                        <button class="btn btn-lg btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Sell
                             <span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="#">ECON110</a></li>
-                            <li><a href="#">ECON210</a></li>
-                            <li><a href="#">ECON310</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">MATH120</a></li>>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <form>
+                                <div>
+                                    <label for="isbn">ISBN</label>
+                                    <input type="number" class="form-control" placeholder="978XXXXXXXXXX" id="isbn"><br /> 
+                                    <label for="price">Price</label>
+                                    <input type="decimal" class="form-control" placeholder="XX.XX" id="price"><br /> 
+                                    <label for="course">Course #</label>
+                                    <input type="text" class="form-control" placeholder="ABCD123" id="course"><br /> 
+                                    <div class="submit-button">
+                                        <button class="btn btn-default" type="submit">Upload</button>
+                                    </div>
+                                </div>
+                            </form>
                         </ul>
                     </div>
                 </div>

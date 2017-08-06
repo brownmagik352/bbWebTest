@@ -1,6 +1,25 @@
 /* branding customization */
 .branding {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+/* actions customization */
+.search-action, .secondary-action {
+    margin-bottom: 25px;
+}
+
+.secondary-action .dropdown {
+    display: inline;
+}
+
+.actions .dropdown button.dropdown-toggle {
+    width: 150px;
+    margin-right: 25px;
+}
+
+.actions .dropdown  .dropdown-menu .submit-button {
+    text-align: center;
 }
 
 /* activity tab customization */
