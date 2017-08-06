@@ -49,19 +49,13 @@
 .active-chat {
     position: fixed;
     bottom: 0;
-    right: 50px;
-    width: 250px;
-    font-size: 16px;
-    text-align: center;
-    padding: 5px 0 0 0;
-    border-radius: 5px 5px 0 0;
-    background-color: lightgray;
+    right: 0;
 }
 
 .chat-window {
     position: fixed;
     bottom: 0;
-    right: 310px;
+    right: 0;
 }
 
 .fixed-panel {
