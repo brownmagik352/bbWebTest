@@ -62,3 +62,29 @@
     max-height: 200px;
     overflow-y: scroll;
 }
+
+/* landing-page customization */
+
+
+.landingPage {
+    background-color: #4b008a;
+    color: white;
+}
+
+.landingPage .row {
+    margin-top: 25px;
+}
+
+.landingPage .branding #logo {
+    width: 100px;
+    height: 100px;
+}
+
+.testimony img {
+    height: 540px;
+    margin-top: 10px;
+}
+
+.sitePreview img {
+    width: 100%;
+}
