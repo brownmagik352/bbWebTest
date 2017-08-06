@@ -44,3 +44,16 @@
 .user-rankings.panel p {
     text-indent: 25px;
 }
+
+/* active-chat UI */
+.active-chat {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    width: 250px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    border-radius: 5px 5px 0 0;
+    background-color: lightgray;
+}
