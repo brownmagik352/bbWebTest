@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+         <link rel="stylesheet" href="css/bootstrap.css"> 
+         <link rel="stylesheet" href="css/my.css">
+         <title>BoolaBooks</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BoolaBooks</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="col-sm-3 col-md-3">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Course or Book Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="#">ECON110</a></li>
+                        <li><a href="#">ECON210</a></li>
+                        <li><a href="#">ECON310</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">MATH120</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">SPAN150</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sell <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <form>
+                                <div>
+                                    <label for="isbn">ISBN</label>
+                                    <input type="number" class="form-control" placeholder="978XXXXXXXXXX" id="isbn"><br /> 
+                                    <label for="price">Price</label>
+                                    <input type="decimal" class="form-control" placeholder="XX.XX" id="price"><br /> 
+                                    <label for="course">Course #</label>
+                                    <input type="text" class="form-control" placeholder="ABCD123" id="course"><br /> 
+                                    <div class="submit-button">
+                                        <button class="btn btn-primary" type="submit">Upload</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+
+        <div class="container">
+
+            <div class="row searchList-and-user-rankings">
+                <div class="searchList col-md-9 col-xs-12">
+                    <ul class="nav nav-tabs"> <!-- not using justified works better for mobile -->
+                        <li role="presentation"><a href="index.html">Recent Activity</a></li>
+                        <li role="presentation"><a href="myBooks.html">My Books</a></li>
+                        <li role="presentation"><a href="mySearches.html">My Searches</a></li>
+                        <li role="presentation" class="active"><a href="#">Search Results</a></li>
+                    </ul>
+                    
+                    <ul class="list-unstyled">                        
+                        <li>
+                            <div class="media well well-sm">
+                                <div class="media-left media-middle">
+                                    <img class="media-object" src="images/csBook.jpeg" alt="This is a ferrari.">
+                                </div>
+                                <div class="media-body">
+
+                                    <div class="publication-info">
+                                        <h3 class="media-heading">Beginning Linux Programming</h3>
+                                        <h4>Neil Matthew and Richard Stones (1988)</h4>
+                                        <h4>CPSC223</h4>
+                                    </div>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <h4>$10.00</h4>
+                                    <h4>Used</h4>
+                                    <h4>Rent</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media well well-sm">
+                                <div class="media-left media-middle">
+                                    <img class="media-object" src="images/csBook.jpeg" alt="This is a ferrari.">
+                                </div>
+                                <div class="media-body">
+
+                                    <div class="publication-info">
+                                        <h3 class="media-heading">Beginning Linux Programming</h3>
+                                        <h4>Neil Matthew and Richard Stones (1988)</h4>
+                                        <h4>CPSC223</h4>
+                                    </div>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <h4>$35.00</h4>
+                                    <h4>Used</h4>
+                                    <h4>Rent</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media well well-sm">
+                                <div class="media-left media-middle">
+                                    <img class="media-object" src="images/csBook.jpeg" alt="This is a ferrari.">
+                                </div>
+                                <div class="media-body">
+
+                                    <div class="publication-info">
+                                        <h3 class="media-heading">Beginning Linux Programming</h3>
+                                        <h4>Neil Matthew and Richard Stones (1988)</h4>
+                                        <h4>CPSC223</h4>
+                                    </div>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <h4>$55.00</h4>
+                                    <h4>New</h4>
+                                    <h4>Buy</h4>
+                                </div>
+                            </div>
+                        </li>                                                
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-xs-12">                    
+                    <div class="user-rankings panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Your Rankings</h4>
+                        </div>
+                        <div class="panel-body">
+                            <h5>#25 Seller</h5>
+                            <p>5 books uploaded</p>
+                            <p>3 books sold</p>
+                            <h5>#15 Savings</h5>
+                            <p>$65.00</p>                            
+                        </div>
+                    </div>
+                    
+                    <div class="chats panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Chats</h4>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span class="badge">3</span>
+                                    Selling: ECON110
+                                </li>
+                                <li class="list-group-item">Buying: PSYC110</li>
+                                <li class="list-group-item">
+                                    <span class="badge">5</span>
+                                    Buying: CGSC110
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="badge">1</span>
+                                    Selling: MATH120
+                                </li>
+                                <li class="list-group-item">Buying: SPAN150</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>  
+    </body>
+    
+</html>
